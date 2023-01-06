@@ -2,7 +2,12 @@
     margin: 0;
 }
 
-.header{
+section{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.section{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,6 +20,39 @@
 }
 
 .text{
-    width: 15%;
-    margin-right: 15%;
+    width: 50%;
+    margin-right: 25%;
+}
+
+.para1{
+    font-size: small;
+}
+
+.button{
+    background-color: orange;
+    border: none;
+    padding: 3%;
+    margin-left: 75%;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.sec-section-img{
+    width: 100%;
+}
+
+.sec-button{
+        background-color: orange;
+        border: none;
+        padding: 1.5%;
+        margin-left: 38%;
+        color: white;
+        border-radius: 5px;
+}
+
+.half-width-second-div{
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-left: 23%;
 }
