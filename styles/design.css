@@ -125,3 +125,67 @@ li{
         color: orange;
         border-radius: 5px;
 }
+
+
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 28%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.future{
+    color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.icons1{
+    display: flex;
+    margin-left: 2px;
+}
+.icons1div{
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.futurefp{
+    margin-top: 2%;
+}
+
+.futureemph{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.future1{
+    margin-top: 5%;
+    margin-right: 23%;
+    
+}
+
+.footerh{
+    margin-bottom: 15%;
+}
+
+.footerinput{
+    padding: 3%;
+    border-radius: 5px;
+    margin-bottom: 8%;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+
+.footer-btn{
+    color: orange;
+    padding: 5%;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+}
