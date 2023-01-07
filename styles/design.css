@@ -2,23 +2,7 @@
     margin:0;
 }
 
-/* new experiment */
-/* .firstpartheader{
-    height: 228px;
-    width: 525px;
-}
-
-.ajayra{
-    margin-top: 5%;
-    margin-left: 50%;
-    margin-right: 30%;
-    margin-bottom: 10%;
-    position: ;
-} */
-
-/* end */
-
-
+/* header part */
 .section{
     display: flex;
     /* align-items: center; */
@@ -86,7 +70,7 @@
 /* header end */
 
 
-
+/* main start */
 
 .sec-section-img{
     width: 100%;
@@ -117,7 +101,6 @@
     margin-bottom: 2%;
 }
 
-/* first part end */
 
 
 .section1{
@@ -126,10 +109,7 @@
     justify-content: center;
 }
 
-.image{
-    /* margin-left: 20%; */
-    /* background-color: maroon; */
-}
+
 
 li{
     list-style: none;
@@ -170,12 +150,9 @@ li{
     margin-top: 5%;
     margin-left: 10%;
 
-    /* position: absolute; */
-    
-    
-    
-    /* margin-right: 15%; */
+
 }
+
 
 .upfooterbtn{
     margin-left: 10%;
@@ -222,6 +199,11 @@ li{
         color: orange;
         border-radius: 5px;
 }
+
+/* main end */
+
+
+/* footer start */
 
 
 .footer{
@@ -291,3 +273,6 @@ li{
     width: 120px;
     height: 50px;
 }
+
+
+/* Khatam tata bye bye  */
