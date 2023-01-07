@@ -5,6 +5,7 @@
 section{
     margin-left: 3%;
     margin-right: 3%;
+   
 }
 
 .section{
@@ -55,4 +56,57 @@ section{
     margin-top: 1%;
     margin-right: 2%;
     margin-left: 23%;
+}
+
+li{
+    list-style: none;
+    margin-right: 10%;
+}
+
+.secpage{
+    margin-left: 28%;
+}
+
+.head2{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+
+
+
+.firstbgimage{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    /* margin-right: 15%; */
+}
+
+.bgimage{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.headgrdnt1{
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    color: white;
+}
+.headgrdnt2{
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    color: white;
 }
