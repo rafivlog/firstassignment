@@ -2,8 +2,14 @@
     margin:0;
 }
 
+div{
+
+    display: block;
+}
+
 /* header part */
 .section{
+    margin-bottom: 5%;
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -74,6 +80,8 @@
 
 .sec-section-img{
     width: 100%;
+    margin-left: 20%;
+    height:100%;
 
 }
 
@@ -81,24 +89,24 @@
         background-color: orange;
         border: none;
         padding: 1.5%;
-        margin-left: 68%;
+        margin-left: 0%;
         color: white;
         border-radius: 5px;
 }
 
 .half-width-second-div-header{
-    margin-left: 60%;
+    margin-left: 0%;
     margin-top: 10%;
 }
 .half-width-second-div{
     margin-top: 1%;
     margin-right: 10%;
-    margin-left: 23%;
+    margin-left: 15%;
 }
 .half-width-second-div-paragraph{
     margin-top: 2%;
     margin-right: 15%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
 }
 
 
@@ -132,6 +140,7 @@ li{
 
 .head2{
     text-align: center;
+    margin-top: 3%;
 }
 
 .icons{
@@ -140,17 +149,16 @@ li{
     justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 3%;
+    margin-top: 6%;
+    margin-bottom: -8%;
 }
 
 
 
 
 .firstbgimage{
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 10%;
-
-
 }
 
 
@@ -166,28 +174,27 @@ li{
     width: 120px;
     height: 50px;
     background-color: white;
+    
 }
 
 .bgimage{
-    background-image: url(../images/watch.png);
+    background-image: url(../images/gradient2.png),url(../images/watch.png);
     background-repeat: no-repeat;
-    /* background-size: 100px 100px;
-    background-size: 100% 100%; */
-    position: absolute;
+    background-size: contain;
+    background-position: center center;
+    width: 1500px;
+    height: 250px;
+    margin-top: 3%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 300px;
 }
 
 
-.headgrdnt1{
-    position: absolute;
-    top: 70px;
-    left: 50px;
+.grdnt-title{
     color: white;
-}
-.headgrdnt2{
-    position: absolute;
-    top: 95px;
-    left: 50px;
-    color: white;
+    margin-left: 20%;
+    padding: 5%;
 }
 
 .grdntbtn{
@@ -200,19 +207,32 @@ li{
         border-radius: 5px;
 }
 
+.upfooterbtn{
+    background-color: white;
+    border: none;
+    padding: 1%;
+    margin-left: 25%;
+    margin-top: -4%;
+    
+
+}
+
 /* main end */
 
 
 /* footer start */
 
 
+
+
+
 .footer{
     background-color: black;
     color: white;
-    margin-top: 28%;
+    margin-top: 3%;
     display: flex;
     justify-content: space-between;
-    padding: 5%;
+    padding: 3%;
     
 }
 
