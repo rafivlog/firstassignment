@@ -1,61 +1,136 @@
 *{
-    margin: 0;
+    margin:0;
 }
 
-section{
-    margin-left: 3%;
-    margin-right: 3%;
-   
+
+/* new experiment */
+/* .firstpartheader{
+    height: 228px;
+    width: 525px;
 }
+
+.ajayra{
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    position: ;
+} */
+
+/* end */
+
 
 .section{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    background-color: rgba(128, 128, 128, 0.134);
+    /* background-color: rgba(128, 128, 128, 0.134); */
 }
 
-.image {
+/* .image {
     max-width: 100%;
     max-height: 100%;
-}
+} */
 
 .text{
     width: 50%;
-    margin-right: 25%;
+    margin-right: 30%;
+    margin-left: 55%;
+    margin-top: 18%;
+   
+    position: absolute;
 }
+
+.text1{
+    margin-left: 31%;
+    margin-top: 1%;
+    font-weight: bolder;
+}
+.text2 {
+    margin-left: 30%;
+    margin-top: 1%;
+    font-weight: bolder;
+}
+.text3 {
+    margin-left: 40%;
+    margin-top: 1%;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+
 
 .para1{
     font-size: small;
+    margin-left: 12%;
+}
+.para2{
+    font-size: small;
+    margin-left: 9%;
+}
+.para3{
+    font-size: small;
+    margin-left: 17%;
 }
 
 .button{
-    background-color: orange;
+    background-color: red;
     border: none;
-    padding: 3%;
-    margin-left: 75%;
+    padding: 2%;
+    margin-left: 35%;
+    margin-top: 3%;
     color: white;
     border-radius: 5px;
+    width: 120px;
+        height: 50px;
 }
+
+/* header end */
+
+
 
 
 .sec-section-img{
     width: 100%;
+
 }
 
 .sec-button{
         background-color: orange;
         border: none;
         padding: 1.5%;
-        margin-left: 38%;
+        margin-left: 68%;
         color: white;
         border-radius: 5px;
 }
 
+.half-width-second-div-header{
+    margin-left: 60%;
+    margin-top: 10%;
+}
 .half-width-second-div{
     margin-top: 1%;
-    margin-right: 2%;
+    margin-right: 10%;
     margin-left: 23%;
+}
+.half-width-second-div-paragraph{
+    margin-top: 2%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+
+/* first part end */
+
+
+.section1{
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    margin-left: 20%;
+    /* background-color: maroon; */
 }
 
 li{
@@ -64,8 +139,13 @@ li{
 }
 
 .secpage{
-    margin-left: 28%;
+    margin-top: 7%;
+    margin-left: 8%;
 }
+
+
+
+
 
 .head2{
     text-align: center;
